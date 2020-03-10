@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>
-      Testing Jinja2 and Flask with the Hy language
+      Difference Calculator
     </title>
   </head>
   <body>
@@ -18,11 +18,12 @@
 
       Subtrahend:
       <input type="number" step="any" name="subtrahend"
-             value={% if subtrahend %}
-             {{subtrahend}}
-           {% else %}
-             0
-           {% endif %}
+             value=
+             {% if subtrahend %}
+               {{subtrahend}}
+             {% else %}
+               0
+             {% endif %}
              required>
       <br>
 

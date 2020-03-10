@@ -2,7 +2,7 @@
 
 (import [flask [Flask render_template request make_response]])
 
-(setv app (Flask "Flash and Jinja2 test"))
+(setv app (Flask "diff_calc"))
 
 (with-decorator (app.route "/hy_flask")
   (defn index []
